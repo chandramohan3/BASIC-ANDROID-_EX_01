@@ -31,7 +31,7 @@ Step 7: Save and run the application.
 ### REGISTER NO: 212221043003
 
 ### MainActivity.java:
-
+```C
 package com.example.andriodlifecycle;
 
 import android.os.Bundle;
@@ -95,9 +95,10 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 }
+```
 
 ### Activity_Main.XML:
-
+```C
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -117,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 
 ## OUTPUT:
 ## OnCreate Executed:
